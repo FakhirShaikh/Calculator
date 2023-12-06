@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+        <h1>Fakhir_Shaikh</h1>
+    <div class="calculator">
+        <table class="table">
+            <tr>
+                <td colspan="4">
+                    <input type="text" id="result">
+                </td>
+            </tr>
+        <tr>
+                <td onclick="setdata(1)">
+                    <button class="button">1</button>
+                </td>
+                <td  onclick="setdata(2)">
+                    <button class="button">2</button>
+                </td>
+                <td  onclick="setdata(3)">
+                    <button class="button">3</button>
+                </td>
+                <td  onclick="setdata('+')">
+                    <button class="button">+</button>
+                </td>
+            </tr>
+            <tr>
+                <td  onclick="setdata(4)">
+                    <button class="button">4</button>
+                </td>
+                <td  onclick="setdata(5)">
+                    <button class="button">5</button>
+                </td>
+                <td  onclick="setdata(6)">
+                    <button class="button">6</button>
+                </td>
+                <td onclick="setdata('-')">
+                    <button class="button">−</button>
+                </td>
+            </tr>
+            <tr>
+                <td onclick="setdata(7)">
+                    <button class="button">7</button>
+                </td>
+                <td onclick="setdata(8)">
+                    <button class="button">8</button>
+                </td>
+                <td onclick="setdata(9)">
+                    <button class="button">9</button>
+                </td>
+                <td onclick="setdata('*')">
+                    <button class="button">×</button>
+                </td>
+            </tr>
+            <tr>
+                <td onclick="setdata(0)">
+                    <button class="button">0</button>
+                </td>
+                <td onclick="squareroot('√')">
+                    <button class="button">√</button>
+                </td>   
+                <td onclick="square('^')">
+                    <button class="button">x²</button>
+                </td>   
+                <td onclick="setdata('/')">
+                    <button class="button">÷</button>
+                </td>
+            </tr>
+            <tr>
+                <td onclick="setdata('.')">
+                    <button class="button">•</button>
+                </td>
+                <td onclick="clearall()">
+                    <button class="btn cl">C</button>
+                </td>
+                <td colspan="2" onclick="calcualte()">
+                    <button class="equalto">=</button>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
